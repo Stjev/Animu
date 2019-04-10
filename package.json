@@ -1,0 +1,32 @@
+{
+  "name": "animu",
+  "version": "1.0.0",
+  "description": "True weeb shit",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stjev/Animu.git"
+  },
+  "author": "Weeb 1, Weeb 2",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stjev/Animu/issues"
+  },
+  "homepage": "https://github.com/Stjev/Animu#readme",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.3.1",
+    "popper": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/jquery": "^3.3.29",
+    "electron": "^2.0.2",
+    "tslint": "^5.10.0",
+    "typescript": "^2.8.3"
+  }
+}
